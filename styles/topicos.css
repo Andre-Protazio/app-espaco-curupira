@@ -1,0 +1,53 @@
+.topicos{
+    background-color: var(--branco);
+    text-align: center;
+    padding: 1em 0;
+    
+}
+
+.topicos__titulo{
+    color: var(--cor-curupira);
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.topicos__item{
+    margin: 2em 0.5em;
+}
+
+.topicos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topicos__link{
+    color: var(--branco);
+    padding: 1em;
+    background-color: var(--cor-curupira);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1024px){
+
+    .topicos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .topicos__titulo{
+        font-size: 24px;
+    }
+
+    .topicos__lista{
+        width: 90%;
+    }
+
+    .topicos__link{
+        font-size: 24px;
+    }
+}

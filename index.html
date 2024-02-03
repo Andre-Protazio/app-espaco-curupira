@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço Curupira</title>
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/vars.css">
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/banner.css">
+    <link rel="stylesheet" href="/styles/carrossel.css">
+    <link rel="stylesheet" href="/styles/topicos.css">
+    <link rel="stylesheet" href="styles/contato.css">
+    <link rel="stylesheet" href="/styles/rodape.css">
+    
+</head>
+<body>
+    <header class="cabecalho">
+        
+        <div class="container">
+        <input type="checkbox" id="menu" class="container__botao"> 
+        <label for="menu">
+            <span class="cabecaho__menu-hamburguer container__imagem"></span>
+            
+        </label>    
+
+        <ul class="lista-menu">
+            <li class="lista-menu__titulo">Categorias</li>
+
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Projetos</a>
+            </li>
+
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Artigos</a>
+            </li>
+
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Redes Sociais</a>
+            </li>
+
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Contato</a> 
+            </li>
+        </ul>
+        <img class="cabecalho__logo" src="/images/Curupira Alta qualidade.png" alt="Logo do espaço Curupira">
+            
+        </div>    
+
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+    
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Projetos</a>
+                </li>
+    
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Artigos</a>
+                </li>
+    
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Redes Sociais</a>
+                </li>
+    
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Contato</a> 
+                </li>
+            </ul>
+
+            <li class="opcoes__item">
+                <a href="#" class="opcoes__link">Favoritos</a>
+            </li>
+
+            <li class="opcoes__item">
+                <a href="#" class="opcoes__link">Minha estante</a>
+            </li>
+        </ul>
+
+        <div class="container">     
+            <a href="#">
+                <img src="/images/Favoritos.svg" alt="Icone Favoritos" class="container__imagem container__imagem-transparente">
+            </a>
+            <a href="#">
+                <img src="images/Usuario.svg" alt="Meu perfil" class="container__imagem">
+            </a>
+        </div>    
+    </header>
+
+    <section class="banner">
+        <h2 class="banner__titulo">Qual obra você procura?</h2>
+        <p class="banner__texto">Encontre obras didáticas e paradidáticas com <strong class="texto__destaque"> acessibilidade comunicacional!</strong></p>
+        <input type="search" class="banner__pesquisa" placeholder="Digite a obra que procura">
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
+        <div class="swiper">
+             <!-- If we need pagination -->
+             <div class="swiper-pagination"></div>
+
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="images/obra 1.svg" alt="Livro: 22 Tempos difíceis e mágicos"></div>
+              <div class="swiper-slide"><img src="images/obra 2.svg" alt="Livro: Tutorial: acessibilidade comunicacional em obras didáticas e paradidáticas"></div>
+              <div class="swiper-slide"><img src="/images/obra 3.svg" alt="Livro: Audiodescrição: primeiros passos na sala de aula"></div>
+              <div class="swiper-slide"><img src="images/obra 4.svg" alt="Livro: Esquadrão espacial: Principais figuras geométricas"></div>
+              <div class="swiper-slide"><img src="images/obra 5.svg" alt="Livro: Geografia para crianças: principais tipos de relevo"></div>
+            </div>
+                   
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <div class="card">
+                <div class="card__descricao">
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                        <h2 class="descricao__titulo-livro">Projeto Yai</h2>
+                        <p class="descricao__texto">Videoaulas com recursos de acessibilidade em audiodescrição, áudio e LIBRAS.</p>
+                        
+                    </div>
+
+                    <img src="images/yai.jpg" class="card__imagem card__imagem-yai" alt="imagem do logotipo do yai">
+                </div>
+                <div class="card__botoes">
+                    <ul class="botoes">
+                        <li class="botoes__link">
+                            <img src="images/Favoritos.svg"  alt="Favoritar projeto">
+                        </li>
+
+                        <li class="botoes__link">
+                            <img src="images/Compras.svg" alt="Adicionar ao carrinho">
+                        </li>
+                    </ul>
+                    <a href="#" class="botoes__ancora">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+           
+
+    </section>
+    
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">MAIS ACESSADOS</h2>
+        <div class="swiper">
+             <!-- If we need pagination -->
+             <div class="swiper-pagination"></div>
+
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="images/obra 4.svg" alt="Livro: Esquadrão espacial: Principais figuras geométricas"></div>
+              <div class="swiper-slide"><img src="images/obra 5.svg" alt="Livro: Geografia para crianças: principais tipos de relevo"></div>
+              <div class="swiper-slide"><img src="/images/obra 3.svg" alt="Livro: Audiodescrição: primeiros passos na sala de aula"></div>
+            </div>
+           
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <div class="card">
+                <div class="card__descricao">
+                    <div class="descricao">
+                        <img src="images/Estrelinhas.svg" class="descricao__imagem" alt="Icone de cinco estrelas">
+                        <h3 class="descricao__titulo">Autora do mês</h3>
+                        <h2 class="descricao__titulo-livro">Beca A.</h2>
+                        <p class="descricao__texto">Escritora, publicitária e autora do livro "22: Tempos Difíceis e Mágicos".</p>
+                        
+                    </div>
+
+                    <img src="images/obra 1_1.svg" class="card__imagem card__imagem-22" alt="imagem do logotipo do yai">
+                </div>
+                <div class="card__botoes">
+                    <ul class="botoes">
+                        <li class="botoes__link">
+                            <img src="images/Favoritos.svg"  alt="Favoritar projeto">
+                        </li>
+
+                        <li class="botoes__link">
+                            <img src="images/Compras.svg" alt="Adicionar ao carrinho">
+                        </li>
+                    </ul>
+                    <a href="#" class="botoes__ancora">Saiba Mais</a>
+                </div>
+            </div>
+           
+
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Acessibilidade</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Cursos</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Arumã</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Projetos</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Bolsas</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Livros</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Vídeos</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, projetos e outros.</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    <hr/>
+
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Espaço Curupira</h2>
+
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Projetos</li>
+            <li class="lista-rodape__item">
+                <img src="images/CasaDoCodigo.svg" alt="Logo da casa do codigo">
+                <a href="#" class="lista-rodape__link">Arumã</a>
+            </li>
+
+            <li class="lista-rodape__item">
+                <img src="images/CasaDoCodigo.svg" alt="Logo da casa do codigo">
+                <a href="#" class="lista-rodape__link">Apoema</a>
+            </li>
+
+            <li class="lista-rodape__item">
+                <img src="images/CasaDoCodigo.svg" alt="Logo da casa do codigo">
+                <a href="#" class="lista-rodape__link">Maloca</a>
+            </li>
+
+            <li class="lista-rodape__item">
+                <img src="images/CasaDoCodigo.svg" alt="Logo da casa do codigo">
+                <a href="#" class="lista-rodape__link">Yai</a>
+            </li>
+        </ul>
+
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Cursos & Oficinas</li>
+            <li class="lista-rodape__item">
+                <img src="images/Alura.svg" alt="Logo da Alura">
+                <a href="#" class="lista-rodape__link">Audiodescrição</a>
+            </li>
+
+            <li class="lista-rodape__item">
+                <img src="images/Alura.svg" alt="Logo da Alura">
+                <a href="#" class="lista-rodape__link">LIBRAS</a>
+            </li>
+
+            <li class="lista-rodape__item">
+                <img src="images/Alura.svg" alt="Logo da Alura">
+                <a href="#" class="lista-rodape__link">Edição de vídeo</a>
+            </li>
+
+            <li class="lista-rodape__item">
+                <img src="images/Alura.svg" alt="Logo da Alura">
+                <a href="#" class="lista-rodape__link">Mixagem de audio </a>
+            </li>
+        </ul>
+
+
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Extras</li>
+            <li class="lista-rodape__item">
+                <img src="images/LayersTech.svg" alt="Logo do LayersTech">
+                <a href="#" class="lista-rodape__link">Redes Sociais</a>
+            </li>
+
+            <li class="lista-rodape__item">
+                <img src="images/LayersTech.svg" alt="Logo do LayersTech">
+                <a href="#" class="lista-rodape__link">Podcast</a>
+            </li>
+
+            <li class="lista-rodape__item">
+                <img src="images/LayersTech.svg" alt="Logo do LayersTech">
+                <a href="#" class="lista-rodape__link">Artigos</a>
+            </li>
+
+            <li class="lista-rodape__item">
+                <img src="images/LayersTech.svg" alt="Logo do LayersTech">
+                <a href="#" class="lista-rodape__link">Relatos</a>
+            </li>
+
+            <li class="lista-rodape__item">
+                <img src="images/LayersTech.svg" alt="Logo do LayersTech">
+                <a href="#" class="lista-rodape__link">Equipe</a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 2.5,
+        pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+             },
+    });
+    </script>
+</body>
+</html>
