@@ -45,9 +45,33 @@ hr{
     .lista-rodape__link{
         color: var(--cinza);
         text-decoration: none;
-        margin-left: 0.1em;
+        padding: 1em 0;
+        margin-left: 0.5em;
         
     }
 
+    .lista-rodape__link:hover{
+        color: var(--cor-curupira);
+        font-weight: 500;
+    }
+
+    .rodape__icone{
+        width: 35px;
+        border-radius: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .lista-rodape{
+        border-left: 1px solid var(--cinza-claro);
+        padding: 1em;
+    }
+
+    .lista-rodape__link{
+        padding: 1em 0;
+    }
     
+    .rodape{
+        padding: 3em 0;
+    }
 }
